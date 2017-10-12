@@ -1,5 +1,5 @@
 println("Groovy processing payload '" + payload + "'");
-if (payload.contains('a')) {
+if (payload.grep('a')) {
     return "foo"
 }
 else {
